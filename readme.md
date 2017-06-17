@@ -1,0 +1,1 @@
+pod "NewsList_Category"
