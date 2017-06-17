@@ -17,7 +17,7 @@
 
 - (UIViewController *)NewsList_viewControllerWithSourceType:(NSInteger)sourceType topicID:(NSString *)topicID
 {
-    NSDictionary *params = @{kMediatorParamsSourceTypeKey : @(sourceType), kMediatorParamsTopicIDKey : topicID};
+    NSDictionary *params = @{kMediatorNewsListParamsSourceTypeKey : @(sourceType), kMediatorNewsListParamsTopicIDKey : topicID};
     return [self performTarget:@"NewsList" action:@"viewController" params:params isCacheTarget:NO];
 }
 

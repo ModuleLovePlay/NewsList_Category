@@ -8,8 +8,8 @@
 
 #import <Mediator/Mediator.h>
 
-NSString * const kMediatorParamsSourceTypeKey = @"sourceTypeKey";
-NSString * const kMediatorParamsTopicIDKey = @"topicIDKey";
+NSString * const kMediatorNewsListParamsSourceTypeKey = @"sourceTypeKey";
+NSString * const kMediatorNewsListParamsTopicIDKey = @"topicIDKey";
 
 @interface Mediator (NewsList)
 
